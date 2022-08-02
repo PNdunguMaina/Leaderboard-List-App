@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper {
+  border: 2px solid black;
+  min-height: 100vh;
+  padding: 2rem;
+  color: antiquewhite;
+  width: 60vw;
+}
+
+#current-scores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.recent-top {
+  display: flex;
+  gap: 1rem;
+}
+
+input {
+  margin-top: 1rem;
+}
+
+#submit {
+  margin-top: 1rem;
+}

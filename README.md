@@ -1,56 +1,49 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard List App
 
-> Description the project.
+> A Javascript project set up for the Leaderboard list app using Webpack to bundle Javascript and ES6 features, notably modules which adds scores to the user interface entered in the form.
 
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Languages: HTML, CSS, Javascript
+-Technologies: Visual Studio code
+- Other technologies: Eslint, webpack
+-Follow GitHub Flow & Gitflow
 
 
-## Getting Started
+## To get a local copy up and running follow these simple example steps.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### Step 1
 
+[Click here](https://github.com/PNdunguMaina/Leaderboard-List-App.git) to get to my repository in Github. -Copy the link on the code button on the right (green in color). -Clone the link in your local folder
 
-To get a local copy up and running follow these simple example steps.
+### Step 2
 
-### Prerequisites
+Navigate to the cloned project -Open index.html file
 
-### Setup
+## To run the cloned repository using webpack follow these simple example steps.
 
-### Install
+### Step 1
 
-### Usage
+Navigate to the webpack directory
+[] Use the _$cd webpack_ command in the terminal
 
-### Run tests
+### Step 2
 
-### Deployment
+Create a build directory with a production build of the app
+[] Use the _$npm run build_ command in the terminal
 
+### Step 3
 
+Load the page in the browser via the local host http://localhost:8080/
+[] Use the _$npm start_ command in the terminal
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Patrick Maina**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [PNdunguMaina](https://github.com/PNdunguMaina)
 
 ## 🤝 Contributing
 
@@ -64,10 +57,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+[Microverse](https://www.microverse.org/).
 
 ## 📝 License
-
-This project is [MIT](./MIT.md) licensed.

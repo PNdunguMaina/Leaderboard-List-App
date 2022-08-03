@@ -1,7 +1,7 @@
 import './style.css';
-import Leaderboard from './modules/mainClassContainer';
-import Store from './modules/localStorage';
-import UserInterface from './modules/userInterface';
+import Leaderboard from './modules/mainClassContainer.js';
+import Store from './modules/localStorage.js';
+import UserInterface from './modules/userInterface.js';
 
 document.querySelector('#submit').addEventListener('click', (e) => {
   e.preventDefault();

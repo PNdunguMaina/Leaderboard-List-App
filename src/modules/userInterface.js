@@ -1,3 +1,4 @@
+import Store from './modules/localStorage.js';
 export default class UserInterface {
   static displayScores() {
     const localData = Store.getScores();
@@ -9,7 +10,7 @@ export default class UserInterface {
   static addScores(newScore) {
     const scoreBoard = document.getElementById('added-scores');
     const scoresTable = document.createElement('table');
-    scoresTable.classList.add ('scores-table');
+    scoresTable.classList.add('scores-table');
     scoreBoard.appendChild(scoresTable);
     const row = document.createElement('tr');
     row.classList.add('row');

@@ -2,11 +2,15 @@
 export default class Store {
   static getScores() {
     let scores;
-    localStorage.getItem('scores') === null
-      ? (scores = [])
-      : (scores = JSON.parse(localStorage.getItem('scores')));
+    if (localStorage.getItem('scores') === null) {
+      scores = [];
+    } else {
+      scores = JSON.parse(localStorage.getItem('scores'));
+    }
+
     return scores;
   }
+  
   static addScores(score) {
     const localData = Store.getScores();
     localData.push(score);

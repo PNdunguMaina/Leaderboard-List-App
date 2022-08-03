@@ -1,4 +1,5 @@
-import Store from './modules/localStorage.js';
+import Store from './localStorage.js';
+
 export default class UserInterface {
   static displayScores() {
     const localData = Store.getScores();

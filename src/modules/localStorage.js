@@ -10,7 +10,7 @@ export default class Store {
 
     return scores;
   }
-  
+
   static addScores(score) {
     const localData = Store.getScores();
     localData.push(score);

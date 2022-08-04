@@ -19,7 +19,4 @@ const fetchScores = async () => {
     .then((data) => data.json())
     .then((scores) => showScores(scores.result));
 };
-
-
-
 export default fetchScores;

@@ -1,9 +1,10 @@
-import scoresUrl from './ApiUrl';
+import scoresUrl from './ApiUrl.js';
+
 const updateScores = async (user, score) => {
   await fetch(scoresUrl, {
     method: 'POST',
     body: JSON.stringify({
-      user: user,
+      user,
       score,
     }),
     headers: {

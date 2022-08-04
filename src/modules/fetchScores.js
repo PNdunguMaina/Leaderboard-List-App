@@ -2,15 +2,16 @@ import scoresUrl from './ApiUrl.js';
 
 //  display scores on the UI
 const showScores = (allScores) => {
+  let scores = document.getElementById('added-scores');
+  let table = `<table class="scores-table">`;
   allScores.forEach((player) => {
-    document.getElementById('added-scores').innerHTML += `
-    <table class="scores-table">
-    <tr class="row">
-    <td class="name">${player.user}</td>
+    table += `<tr class="row"> 
+    <td class="name">${player.user}:</td>
     <td class="score">${player.score}</td>
-    </tr>
-    </table>`;
+    </tr>`;
   });
+  table += `</table>`;
+  scores.innerHTML = table;
 };
 
 // fetch scores list from the API

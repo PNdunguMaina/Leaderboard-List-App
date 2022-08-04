@@ -15,6 +15,8 @@ body {
   padding: 2rem;
   color: antiquewhite;
   width: 60vw;
+  background-color: rgb(156, 154, 138);
+  margin-bottom: 1.5rem;
 }
 
 #current-scores {
@@ -56,9 +58,8 @@ input::placeholder {
 }
 
 #added-scores {
-  width: 30vw;
+  /* width: 30vw; */
   box-sizing: border-box;
-  background-color: blueviolet;
   margin-top: 2rem;
 }
 
@@ -66,11 +67,21 @@ input::placeholder {
   color: #fff;
   font-size: 1.5rem;
   padding: 2rem;
-  border-bottom: 1px solid black;
+  background-color: blueviolet;
+  position: absolute;
+  display: flex;
+  width: 30rem;
 }
 
 .row {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  background-color: mediumaquamarine;
+  width: 25rem;
+  padding: 1.5rem;
+  font-family: 'Courier New', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
 }

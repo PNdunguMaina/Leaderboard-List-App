@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper {
+  border: 2px solid black;
+  min-height: 100vh;
+  padding: 2rem;
+  color: antiquewhite;
+  width: 60vw;
+}
+
+#current-scores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.recent-top {
+  display: flex;
+  gap: 1rem;
+}
+
+form h2 {
+  padding-left: 3rem;
+  padding-bottom: 1.4rem;
+}
+
+.form-input {
+  padding-left: 3rem;
+}
+
+input {
+  margin-top: 1rem;
+  height: 4rem;
+  width: 20rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+}
+
+#submit {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#added-scores {
+  width: 30vw;
+  box-sizing: border-box;
+  background-color: blueviolet;
+  margin-top: 2rem;
+}
+
+.scores-table {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-bottom: 1px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}

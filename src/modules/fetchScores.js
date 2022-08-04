@@ -1,3 +1,5 @@
+import scoresUrl from './ApiUrl.js';
+
 //  display scores on the UI
 const showScores = (allScores) => {
   allScores.forEach((player) => {
@@ -11,7 +13,6 @@ const showScores = (allScores) => {
   });
 };
 
-import scoresUrl from './ApiUrl.js';
 // fetch scores list from the API
 const fetchScores = async () => {
   await fetch(scoresUrl)

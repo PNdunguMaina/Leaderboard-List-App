@@ -1,7 +1,7 @@
 import './style.css';
-import updateScores from './modules/update';
-import clearFields from './modules/clearField';
-import fetchScores from './modules/fetchScores';
+import updateScores from './modules/update.js';
+import clearFields from './modules/clearField.js';
+import fetchScores from './modules/fetchScores.js';
 
 document.querySelector('#submit').addEventListener('click', (e) => {
   e.preventDefault();

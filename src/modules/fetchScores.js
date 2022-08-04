@@ -3,11 +3,11 @@ import scoresUrl from './ApiUrl.js';
 //  display scores on the UI
 const showScores = (allScores) => {
   const scores = document.getElementById('added-scores');
-  let table = `<table class='scores-table'>`;
+  let table = `<table class="scores-table">`;
   allScores.forEach((player) => {
-    table += `<tr class='row'> 
-    <td class='name'>${player.user}:</td>
-    <td class='score'>${player.score}</td>
+    table += `<tr class="row"> 
+    <td class="name">${player.user}:</td>
+    <td class="score">${player.score}</td>
     </tr>`;
   });
   table += `</table>`;

@@ -1,21 +1,21 @@
 import './style.css';
-import Leaderboard from './modules/mainClassContainer.js';
-import Store from './modules/localStorage.js';
-import UserInterface from './modules/userInterface.js';
+import updateScores from './modules/update';
+import clearFields from './modules/clearField';
+import fetchScores from './modules/fetchScores';
 
 document.querySelector('#submit').addEventListener('click', (e) => {
   e.preventDefault();
-
   const name = document.querySelector('#name').value;
-
   const score = document.querySelector('#score').value;
 
   if (name && score) {
-    const leaderBoard = new Leaderboard(name, score);
-    UserInterface.addScores(leaderBoard);
-    Store.addScores(leaderBoard);
-    UserInterface.clearFields(leaderBoard);
+    updateScores(name, score);
+    clearFields();
   }
 });
 
-document.addEventListener('DOMContentLoaded', UserInterface.displayScores);
+document.querySelector('#refresh').addEventListener('click', () => {
+  document.location.reload();
+  fetchScores();
+});
+fetchScores();

@@ -25,12 +25,18 @@
     "eslint": "^8.21.0",
     "hint": "^2.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "install-peerdeps": "^3.0.3",
+    "npx": "^10.2.2"
   }
 }

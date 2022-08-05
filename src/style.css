@@ -11,7 +11,6 @@ body {
 
 #wrapper {
   border: 2px solid black;
-  min-height: 100vh;
   padding: 2rem;
   color: antiquewhite;
   width: 60vw;
@@ -58,7 +57,6 @@ input::placeholder {
 }
 
 #added-scores {
-  /* width: 30vw; */
   box-sizing: border-box;
   margin-top: 2rem;
 }
@@ -68,7 +66,6 @@ input::placeholder {
   font-size: 1.5rem;
   padding: 2rem;
   background-color: blueviolet;
-  position: absolute;
   display: flex;
   width: 30rem;
 }
